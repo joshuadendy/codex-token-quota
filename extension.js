@@ -97,7 +97,8 @@ function activate(context) {
 
       if (Number.isFinite(remainingPercent)) {
         const percent = Math.max(0, Math.min(100, remainingPercent));
-        const { used, limit } = limits.individualLimit;
+        const used = Math.ceil(Number(limits.individualLimit.used));
+        const limit = Math.ceil(Number(limits.individualLimit.limit));
 
         item.text = `$(pulse) Codex ${Math.round(percent)}%`;
         item.tooltip =
