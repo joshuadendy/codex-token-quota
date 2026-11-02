@@ -60,7 +60,7 @@ function readQuota(executablePath) {
         clientInfo: {
           name: "personal_codex_quota_bar",
           title: "Codex Quota Bar",
-          version: "0.0.4"
+          version: "0.0.5"
         }
       }
     });

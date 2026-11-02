@@ -4,7 +4,7 @@
   "displayName": "Codex Quota Bar",
   "description": "A VS Code status-bar extension for monitoring Codex token quotas.",
   "publisher": "local",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "engines": { "vscode": "^1.85.0" },
   "main": "./extension.js",

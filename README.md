@@ -7,7 +7,7 @@ A VS Code status-bar extension for monitoring Codex token quotas.
 Send the packaged `.vsix` file to the user, then install it with:
 
 ```sh
-code --install-extension codex-quota-bar-0.0.4.vsix --force
+code --install-extension codex-quota-bar-0.0.5.vsix --force
 ```
 
 To build the `.vsix` from source:
