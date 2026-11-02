@@ -1,0 +1,28 @@
+
+{
+  "name": "codex-quota-bar",
+  "displayName": "Codex Quota Bar",
+  "publisher": "local",
+  "version": "0.0.4",
+  "engines": { "vscode": "^1.85.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "configuration": {
+      "title": "Codex Quota Bar",
+      "properties": {
+        "codexQuota.executablePath": {
+          "type": "string",
+          "default": "/opt/homebrew/bin/codex",
+          "description": "Absolute path to the Codex CLI executable."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "codexQuota.refresh",
+        "title": "Codex Quota: Refresh"
+      }
+    ]
+  }
+}
