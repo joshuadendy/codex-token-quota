@@ -6,6 +6,10 @@
   "publisher": "local",
   "version": "0.0.5",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuadendy/codex-token-quota.git"
+  },
   "engines": { "vscode": "^1.85.0" },
   "main": "./extension.js",
   "activationEvents": ["onStartupFinished"],
